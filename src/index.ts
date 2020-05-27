@@ -6,3 +6,10 @@ socket.on('connect', ()=> {
   console.log('succes io');
 
 })
+
+socket.on('test', ()=> {
+  console.log('test io');
+
+})
+
+socket.emit('test')
